@@ -1,0 +1,119 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding-top: 40px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    border: 0;
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    background-color: rgb(235, 235, 235);
+    border-collapse: collapse;
+    border: 1px solid black;
+    min-width: 700px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.285);
+    margin-top: 10px;
+}
+
+thead {
+    /* font-weight: 500; */
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    height: 50px;
+
+}
+
+td {
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+.table-img{
+height: 100px;
+padding: 0 10px;
+}
+
+.modal {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 150%;
+    min-width: 300px;
+    min-height: 500px;
+    text-align: center;
+}
+
+.modal.open {
+    left: 0;
+    transition: left .5s;
+}
+
+.modal img {
+    height: 250px;
+}
+
+.top-btn {
+    margin: 25px 5px;
+    width: 125px;
+    background: whitesmoke;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.239);
+    color: black;
+    border: 1px solid black;
+}
+
+.top-btn:hover {
+    color: whitesmoke;
+}
+
+.close-btn {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.rate {
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+
+.rate-btn {
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    margin: 0 10px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.rate-btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.rate-num{
+    font-size: 25px;
+}
